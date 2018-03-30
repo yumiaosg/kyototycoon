@@ -48,7 +48,7 @@ class UpdateLogger {
   /* The accuracy of logical time stamp. */
   static const uint64_t TSLACC = 1000 * 1000;
   /* The waiting seconds of auto flush. */
-  static const double FLUSHWAIT = 0.1;
+  static constexpr double FLUSHWAIT = 0.1;
  public:
   /**
    * Reader of update logs.
